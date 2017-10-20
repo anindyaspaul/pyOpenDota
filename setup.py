@@ -8,5 +8,5 @@ setup(
     author="Anindya Sundar Paul",
     author_email="anindya@anindyaspaul.com",
     license="GPL-3.0",
-    packages=["opendota"],
+    packages=["opendota"], install_requires=['requests']
 )
