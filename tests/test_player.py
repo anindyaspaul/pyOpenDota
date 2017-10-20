@@ -81,6 +81,3 @@ class PlayerTest(unittest.TestCase):
     def test_mmr_estimate(self):
         logger.debug("mmr_estimate: %s", self.player.mmr_estimate)
         self.assertIsInstance(self.player.mmr_estimate, int)
-
-if __name__ == "__main__":
-    unittest.main()
