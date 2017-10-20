@@ -1,8 +1,6 @@
 import logging
-import unittest
-
 import sys
-
+import unittest
 from datetime import datetime
 
 from opendota.player import Player
@@ -33,7 +31,7 @@ class PlayerTest(unittest.TestCase):
         logger.debug("name: %s", self.player.name)
         try:
             self.assertIsInstance(self.player.name, str)
-        except AssertionError as e:
+        except AssertionError:
             self.assertIsNone(self.player.name)
 
     def test_cheese(self):

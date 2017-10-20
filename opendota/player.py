@@ -1,10 +1,9 @@
-import json
 import logging
+from datetime import datetime
+
 import requests
-from datetime import datetime, timezone
 
 from . import config
-
 
 logger = logging.getLogger(__name__)
 
