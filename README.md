@@ -1,2 +1,2 @@
 # pyOpenDota
-Python client for the OpenDota API provided by https://www.opendota.com
+Python client for the [OpenDota API](https://www.opendota.com)
