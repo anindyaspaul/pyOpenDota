@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="opendota",
@@ -8,5 +8,10 @@ setup(
     author="Anindya Sundar Paul",
     author_email="anindya@anindyaspaul.com",
     license="GPL-3.0",
-    packages=["opendota"], install_requires=['requests']
+    packages=find_packages("src"),
+    package_dir={"": "src"},
+    test_suite="tests",
+    install_requires=[
+        "requests"
+    ],
 )
