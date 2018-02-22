@@ -9,3 +9,6 @@ script:
   - coverage run setup.py test
 after_success:
   - codecov
+notifications:
+  email:
+    - anindya@anindyaspaul.com
